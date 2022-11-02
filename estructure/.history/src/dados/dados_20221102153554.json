@@ -1,0 +1,26 @@
+{
+    {"id": 1,
+    "nome": "curso de css",
+    "parentId": null,
+    "children": [
+        {
+            "id": 2,
+            "nome": "como usar borda",
+            "parentId": 1,
+            "children": [
+                {
+                    "id": 3,
+                    "nome": "borda 1 2 3",
+                    "parentId": 2
+                }
+            ]
+        }
+    ]},
+    {
+    "id": 4,
+    "nome": "curso de java",
+    "parentId": null,
+
+    }
+
+}
