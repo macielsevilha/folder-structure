@@ -1,0 +1,15 @@
+.estrutura {
+    background-color: rgba(37, 188, 199, 0.76);
+    padding: 15px 20px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.estrutura div span{
+   text-transform: uppercase;
+}
+
+.propriedade {
+    position: absolute;
+    background-color: aliceblue;
+}

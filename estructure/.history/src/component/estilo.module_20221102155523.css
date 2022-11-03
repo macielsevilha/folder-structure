@@ -1,0 +1,7 @@
+.estrutura {
+    background-color: red;
+    padding: 15px 20px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
