@@ -4,7 +4,8 @@ exports.up = function(knex, Promise) {
         table.increments('id').primary()
         table.string('name').notNull()
         table.integer('parentId').unsigned()
-        table.foreign('parentId').references('id').inTable('categories')
+        table.foreign('parentId').references('id')
+            .inTable('categories')
     })
 };
 

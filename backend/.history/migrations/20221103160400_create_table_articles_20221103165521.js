@@ -7,11 +7,11 @@ exports.up = function(knex, Promise) {
         table.string('imageUrl', 1000)
         table.binary('content').notNull()
 
-        table.integer('userId').unsigned()
-        table.foreign('userId').references('id').inTable('users')
+        table.integer('userId').references()
+        table.foreign('userId').references('id')
+            .inTable('users')
 
-        table.integer('categoryId').unsigned()
-        table.foreign('categoryId').references('id')
+        table.integer('categoryId').references('id')
             .inTable('categories')
     })
 };
